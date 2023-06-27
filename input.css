@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Gotham-Black; 
+    src: font-url('fonts/Gotham-Spotify-Font/Gotham-Black.otf') format('truetype')
+}
+
+.ficon:hover i{
+    filter: invert(65%) sepia(100%) saturate(434%) hue-rotate(92deg) brightness(104%) contrast(80%);
+}
